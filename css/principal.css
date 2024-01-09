@@ -1,0 +1,165 @@
+:root{
+    --semiCuaW:calc(calc(200px + 5vw));
+    --semiCuaH:calc(calc(200px + 5vw)/16*11.85);
+    --vRectW: calc(calc(250px + 5vw)/19*16);
+    --vRectH: calc(250px + 5vw);
+    --ShadowBoxB:linear-gradient( 135deg, rgb(238, 238, 238), rgb(255, 255, 255));;
+    --ShadowBox: drop-shadow(3px 3px 5px rgba(128, 128, 128, 0.784));
+    --RouseEspecial: rgb(255, 1, 79);
+    --GreyEspecial: rgb(80, 80, 80, 0.2);
+    --WhiteSpecial:rgb(236, 240, 243);
+    --MenuFontS: calc(4px + 0.75vw)
+}
+
+*{
+    font-family: 'Montserrat', sans-serif !important;
+}
+main > *{
+    padding: 40px 0 40px 0;
+}
+
+hr{ 
+    position: relative;
+    top:20px;
+    padding:  1px 0 0 0;
+    border-bottom: 0 ;
+    border-left: 0;
+    border-right: 0;
+    width: 85vw;
+    background-size: 2px !important;
+    border: var(--GreyEspecial) !important;
+    background-color: var(--GreyEspecial) ;
+}
+a{
+    font-size: var(--MenuFontS);
+}
+p,label{
+    font-size: calc(7px + 0.5vw);
+    font-weight:400 ;
+    color: rgb(80, 80, 80);
+}
+.nota-pie{
+    -ms-text-justify: center;
+    text-align: center;
+    font-size: 10px ;
+    padding-top: 30px;
+}
+.upperFont{
+  text-transform: uppercase;
+}
+body{
+   
+    overflow-x: hidden;
+    width: 99vw;
+    background-color: rgb(236, 240, 243);
+    margin: 0;
+}
+.shadowBox{
+    filter: var(--ShadowBox);
+} 
+.marginX4{
+    margin: 0 40px 0 0;
+}
+.pictures270{
+    margin: 25px 25px 10px 25px;
+     border-radius:15px;
+}
+.centerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textCenter {
+    text-transform: capitalize;
+    text-align: center;
+    text-justify: auto;
+}
+.baseLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.colorRouse{
+    color: rgb(255, 1, 79);
+}
+.desplazar7{
+  background: var(--ShadowBoxB);
+   position: relative;
+   left: 7px;
+   top:7px;
+    border-radius: 15px;
+   filter: drop-shadow(3px 3px 5px rgba(128, 128, 128, 0.784));
+  padding: 15px;
+}
+.desplazarB{
+    background-color: white;
+    border-radius: 15px;
+}
+li a,
+li a:link {
+    text-decoration: none;
+    color: black;
+
+}
+hr + * > h3,hr + * > * > h3{
+    text-transform: uppercase;   
+}
+picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+   
+}
+.fleX {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .fleXCentCmn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+hr + * > * >h3+h1,
+hr + * > h3+h1
+ {
+ font-size: 39px;
+     
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+@media screen and (max-width:1020px){
+    a{
+        font-size: medium;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+   hr + * > * >h3+h1,
+   hr + * > * >h3, 
+   hr + * > h3+h1,
+   hr + * > h3  {
+ text-align: center !important;
+       }
+
+       p,label{
+        font-size: calc(10px + 0.5vw);
+        ;
+    }
+    :root{
+        --MenuFontS: calc(4px + 0.75vw)  
+    }
+}

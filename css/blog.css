@@ -1,0 +1,31 @@
+
+#gridBlog img{
+   border-radius: 15px; 
+}
+
+#gridBlog{
+    display:grid;
+    height:max-content;
+    padding: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap:50px;
+    row-gap: 75px;
+}
+#gridBlog .desplazar7 > *{
+    position: relative;
+    bottom: 30px;
+    text-align: left;
+}
+
+@media screen and (max-width:1020px) {
+    #gridBlog{
+        grid-template-columns:auto auto; 
+    }
+}
+
+@media screen and (max-width:750px) {
+    #gridBlog{
+        grid-template-columns:auto; 
+    }
+}
