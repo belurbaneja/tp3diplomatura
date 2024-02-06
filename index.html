@@ -1,523 +1,505 @@
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BelenCreaccion</title>
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/principal.css">
     <link rel="stylesheet" href="./css/resume.css">
     <link rel="stylesheet" href="./css/portfolio.css">
-    <link rel="stylesheet" href="css/whatIdo.css">
+    <link rel="stylesheet" href="./css/whatIdo.css">
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/contactMy.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,500&amp;display=swap"
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/clientes.css">
- 
-
-
+    <script src="./js/css.js" defer></script>
 </head>
 
+<body><header class="header">
+        
+    <img src="./img/icon/logo.svg" alt="logo de mi página">
 
-<body>
+    <nav><ul class="menu"><p>MENU</p><li>
+        <a href="./#">inicio</a>
+        </li><li>
+        <a href="./#whatIdo">caracteristicas</a>
+        </li><li>
+        <a href="./#portfolio">Porfolio</a>
+        </li><li>
+        <a href="./#resume">Resumen</a>
+        </li><li>
+        <a href="./#blog">Blog</a>
+        </li><li>
+        <a href="./#Contact">Contacto</a>
+        </li><li>
+        <a href="./#precios">precios</a>
+        </li></ul>
+    </nav>
 
-    <header class="header">
-        <figure>
-            <img src="./img/icon/logo.svg" alt="">
-        </figure>
+
+</header>
+
+
+
+
+
+
+<div id="banner" class="banner"> <section>
+<h6>Bienvenido a mi mundo</h6>
+<h1>Hola, soy <strong>Belén Urbaneja una</strong> apasionada
+desarrolladora Full Stack Developer.
+<p>
+Con experiencia en html, css, Javascript disfruto enfrentando desafíos complejos y transformando
+ideas en soluciones funcionales con un enfoque creativo y soluciones técnicas sólidas. 
+Explora mi porfolio y descubre como puedo llevar tu proyecto al siguiente nivel.
+</p>
+<div class="fleX redes">
+<div>
+
+<h6>ENCUENTRAME CON</h6>
+<nav><ul class="menu">
+<li class="desplazar7 iconB">
+<a class="iconF" href="">f</a>
+</li>
+<li class="desplazar7 iconB"><a class="iconF" href="">
+<img src="./img/icon/Instagram.png" alt=""></a></li>
+<li class="desplazar7 iconB">
+<a class="iconF" href="">in</a>
+</li>
+</ul>   
+</nav>
+</div>
+<div>
+<h6>mejores habilidades en</h6>
+<nav><ul class="menu">
+<li class="desplazar7 iconB">
+<a class="iconF" href="" style=" text-transform: lowercase;  color:rgb(252, 41, 105) !important;font-family: cursive !important;font-size: 35px; font-weight: bolder;-webkit-text-stroke: 2px !important;
+-webkit-text-stroke-color:rgb(252, 41, 105) !important;">
+in
+</a>
+</li>
+<li class="desplazar7 iconB">
+    <a class="iconF" href="">
+    <img src="./img/icon/fimga.png">
+    </a>
+</li>
+<li class="desplazar7 iconB">
+<a class="iconF" href="">
+<img src="./img/icon/diamanteVect.webp">
+</a>
+</li>
+ </ul>
+ </nav>
+</div>
+</div>
+</h1></section>
+<div class="desplazarB">
+<img class="desplazar7 helado helado2" id="imgBanner" src="./img/banner/banner.png">
+
+</div>
+
+</div><hr><section class="whatIdoS" id="whatIdo">
+
+<h3 class="subtitulo  colorRouse">Características</h3>
+<h1 class="titulo">LO QUE HAGO</h1>
+<div class="whatIdoSS">
+
+<div class="slider-controls" style="justify-content:start;">
+<div>
+<button class="slider-button izq-btn" onclick="prevSlide()" style="filter: opacity(0.2);">&lt;</button>
+</div>
+</div>
+<div class="slider-container">
+<ul id="whatIdoS" class="slider-list">
+<li class="slider-item">
+<article class="desplazarB whatIdo">
+<div class="desplazar7">
+<img alt="" src="./img/icon/mobile.png">
+<h3>APP WEB</h3>
+<p>Diseño de aplicaciones basadas en NodeJS</p>
+</div>
+</article></li><li class="slider-item">
+<article class="desplazarB whatIdo">
+<div class="desplazar7">
+<img alt="" src="./img/icon/reactJS.png">
+<h3>ReactJS</h3>
+<p>Programación Web usando librería Javascript React, 
+para desarrollo de sitios Web.</p>
+</div>
+</article></li><li class="slider-item">
+<article class="desplazarB whatIdo">
+<div class="desplazar7">
+<img alt="" src="./img/icon/responsive.png">
+<h3>Diseño responsive</h3>
+<p>Diseño responsive usando
+ HTLM5, CSS3 personalizado, JavaScript, Bootstrap.</p>
+</div>
+</article></li><li class="slider-item">
+<article class="desplazarB whatIdo">
+<div class="desplazar7">
+<img alt="" src="./img/icon/mobile.png">
+<h3>Aplicaciones moviles</h3>
+<p>Diseño de aplicaciones moviles</p>
+</div>
+</article></li><li class="slider-item">
+<article class="desplazarB whatIdo">
+<div class="desplazar7">
+<img alt="" src="./img/icon/reactJS.png">
+<h3>SQL</h3>
+<p>Generar bases de datos estables y escalables</p>
+</div>
+</article></li><li class="slider-item">
+<article class="desplazarB whatIdo">
+<div class="desplazar7">
+<img alt="" src="./img/icon/responsive.png">
+<h3>Java</h3>
+<p>Programas de control de base de datos.</p>
+</div>
+</article></li></ul>
+</div>
+<div class="slider-controls" style="justify-content:end;">
+<div>
+<button class="slider-button der-btn" onclick="nextSlide()">&gt;</button>
+</div>
+</div>
+</div>
+</section><hr><section class="portfolio" id="portfolio"><div class="textCenter">
+<h3 class=" colorRouse">Visita mi portafolio y guarda tus comentarios</h3>
+<h1>mi portafolio</h1>
+</div>
+<div id="portfolioS" class="portfolioS"> 
+<div>
+<article class="desplazarB Tarjetas">
+<div class="desplazar7">
+<span class="picture270">
+<a href="./bandas.html"><img style="" src="./img/clientes/13.webp" alt=""></a>
+</span>
+<div class="whatIdo"><a href="./bandas.html">Bandas aleatorias</a><p>600</p></div>
+<h4>Nombres aleatorios simples para bandas</h4>
+<a class="OpenMod">Saber más</a>
+</div>
+</article>
+<div class="modal desplazarB">
+<div class="modal-content desplazar7">
+<span class="close"><h1 style="float:left;width:40px;">×</h1></span>
+<p class="modalX">Más información sobre el proyecto...</p>
+<a class="modalX" href="./bandas.html">Ver en GitHub</a>
+</div>
+</div>
+</div><div>
+<article class="desplazarB Tarjetas">
+<div class="desplazar7">
+<span class="picture270">
+<a href="./emojis.html"><img style="" src="./img/clientes/14.jpg" alt=""></a>
+</span>
+<div class="whatIdo"><a href="./emojis.html">Emojis</a><p>750</p></div>
+<h4>Leer, almacenar y reemplazar caracteres</h4>
+<a class="OpenMod">Saber más</a>
+</div>
+</article>
+<div class="modal desplazarB">
+<div class="modal-content desplazar7">
+<span class="close"><h1 style="float:left;width:40px;">×</h1></span>
+<p class="modalX">Más información sobre el proyecto...</p>
+<a class="modalX" href="./emojis.html">Ver en GitHub</a>
+</div>
+</div>
+</div><div>
+<article class="desplazarB Tarjetas">
+<div class="desplazar7">
+<span class="picture270">
+<a href=""><img style="" src="./img/clientes/11.png" alt=""></a>
+</span>
+<div class="whatIdo"><a href="">PHOTOSHOP</a><p>630</p></div>
+<h4>Logo design creativity &amp;
+aplication</h4>
+<a class="OpenMod">Saber más</a>
+</div>
+</article>
+<div class="modal desplazarB">
+<div class="modal-content desplazar7">
+<span class="close"><h1 style="float:left;width:40px;">×</h1></span>
+<p class="modalX">Más información sobre el proyecto...</p>
+<a class="modalX" href="">Ver en GitHub</a>
+</div>
+</div>
+</div></div>
+</section><hr><div id="resume" class="resume .fleX ">
+
+        <h3 class="colorRouse">Más de 6 años de experiencia</h3>
+        <h1>Mi Resumen</h1>
+    
+  
+    <nav class="centerFlex desplazarB">
         <ul class="menu">
-            <p>MENU</p>
-            <li>
-                <a href="#">Inicio</a>
-            </li>
-            <li>
-                <a href="#">Características</a>
-            </li>
-            <li>
-                <a href="#">porfolio</a>
-            </li>
-            <li>
-                <a href="#">resumen</a>
-            </li>
-            <li>
-                <a href="#">clientes</a>
-            </li>
-
-            <li>
-                <a href="#">blog</a>
-            </li>
-
-            <li>
-                <a href="#">contact</a>
-            </li>
-            <li>
-                <a href="#">precios</a>
-            </li>
+            <li class=""><a href="">educación</a></li>
+            <li class=""><a href="">Habilidades profesionales</a></li>
+            <li class=""><a href="">experiencia</a></li>
+            <li class=""><a href="">entrevista</a></li>
         </ul>
+    </nav>
+    <div class="fleX">
+        <section>
+            <h1>Estudios cursados</h1>
+            <div id="educacion" class="educacion">
 
-    </header>
-    <main>
-        <div class="banner" id="banner">
-            <section>
-                <h6>Bienvenido a mi mundo</h6>
-                <h1>Hola, soy <strong style="color: rgb(255, 1, 79);">Belén Urbaneja una</strong> apasionada
-                    desarrolladora Full Stack Developer con un enfoque creativo
-                    y con soluciones técnicas sólidas.<strong
-                        style="color:rgb(255, 1, 79); font-family:sans-serif;">|</strong></h1>
-                <p>
-                    Con experiencia en html, css, Javascript disfruto enfrentando desafíos complejos y transformando
-                    ideas en soluciones funcionales. Explora mi porfolio y descubre cómo puedo llevar tu proyecto al
-                    siguiente nivel.
-                </p>
-                <div style="display: flex;">
-                    <div>
-                        <h6>FIND WITH ME</h6>
-                        <ul class="menu">
-                            <li class="desplazar7" style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 30px;height: 30px;display: flex;align-items: center;justify-content: center;
-                            ">
-                                <a style="padding: 4px 4px; border-radius: 7px !important;text-transform: lowercase;  color: white;-webkit-text-stroke: 2px;-webkit-text-stroke-color: black ;font-family:Verdana, Geneva, Tahoma, sans-serif !important;font-size: 30px; font-weight: 1000;top:10px;"
-                                    href="">f</a>
-                            </li>
-                            <li><a href=""><img class="desplazar7"
-                                        style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 30px;height: 30px;"
-                                        src="./img/icon/Instagram.png" alt=""></a></li>
-                            <li class="desplazar7" style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 30px;height: 30px;display: flex;align-items: center;
-                            ">
-                                <a style="padding: 4px 4px; border-radius: 7px !important;text-transform: lowercase;  color: white;-webkit-text-stroke: 2px;-webkit-text-stroke-color: black ;font-size: 20px; font-weight: 900;top:10px;"
-                                    href="">in</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h6>best skill on</h6>
-                        <ul class="menu">
-                            <li class="desplazarB desplazar7"
-                                style="border-radius: 7px !important;width: 30px;padding: 0 3px; text-transform: lowercase;  color:rgb(252, 41, 105);font-family: cursive !important;font-size: 35px; font-weight: bolder;">
-                                in</li>
-                            <li style="padding: 0; "><img class="desplazar7"
-                                    style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 35px;height: 30px;"
-                                    src="./img/icon/fimga.png" alt="">
-                            </li>
-                            <li style="padding: 0; ">
-                                <img style="border-radius: 7px !important;width: 40px;"
-                                    src="./img/icon/diamanteVect.webp" alt="">
-                            </li>
+            <article>
+<div class="lineaV"></div>
+<div class="desplazarB">
+<div class="desplazar7">
+<div class="fleX">
+<div>
+<h4>Ingeniería en Software</h4><p>Universidad Siglo 21 (2021-2025)</p>
+</div>
+<p>4.3/5</p>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, sapiente accusantium asperiores hic recusandae a ipsa ut ipsam vero dolores voluptate fuga, optio quae repellendus provident nemo assumenda enim eos!</p>
+</div>
+</div>
+</article><article>
+<div class="lineaV"></div>
+<div class="desplazarB">
+<div class="desplazar7">
+<div class="fleX">
+<div>
+<h4>Testing QA</h4><p>Instituto Icaro (2020)</p>
+</div>
+<p>4.5/5</p>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, sapiente accusantium asperiores hic recusandae a ipsa ut ipsam vero dolores voluptate fuga, optio quae repellendus provident nemo assumenda enim eos!</p>
+</div>
+</div>
+</article><article>
+<div class="lineaV"></div>
+<div class="desplazarB">
+<div class="desplazar7">
+<div class="fleX">
+<div>
+<h4>Diplomatura en programación web Full Stack Developer.</h4><p>UTN.BA (2018-2019)</p>
+</div>
+<p>4.8</p>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, sapiente accusantium asperiores hic recusandae a ipsa ut ipsam vero dolores voluptate fuga, optio quae repellendus provident nemo assumenda enim eos!</p>
+</div>
+</div>
+</article></div>
+        </section>
 
+        <section>
+            <h1>Experiencia laboral</h1>
+            <div id="jobExp" class="jobExp">
 
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <picture>
-                <img src="./img/banner/banner.png" alt="mi foto">
-            </picture>
-        </div>
-        <hr>
-        <div class="whatIdo">
-            <div id="whatIdo">
-                <h3 class="subtitulo  colorRouse">Características</h3>
-                <h1 class="titulo">LO QUE HAGO</h1>
-
-                <div class="desplazarB whatIdo">
-                    <div class="desplazar7">
-                        <img alt="" src="./img/icon/mobile.png">
-                        <h3>Aplicaciones moviles</h3>
-                        <p>Diseño de aplicaciones moviles</p>
-                    </div>
-                </div>
-                <div class="desplazarB whatIdo">
-                    <div class="desplazar7">
-                        <img alt="" src="./img/icon/reactJS.png">
-                        <h3>ReactJS</h3>
-                        <p>Programación Web usando librería Javascript React,
-                            para desarrollo de sitios Web.</p>
-                    </div>
-                </div>
-                <div class="desplazarB whatIdo">
-                    <div class="desplazar7">
-                        <img alt="" src="./img/icon/responsive.png">
-                        <h3>Diseño responsive</h3>
-                        <p>Diseño responsive usando
-                            html5, ccs3, Bootstrap.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="portfolio">
-            <section class="textCenter">
-                <h3 class=" colorRouse">Visita mi porfolio y guarda tus comentarios</h3>
-                <h1>mi porfolio</h1>
-            </section>
-            <section id="portfolio">
-                <div class="desplazarB Tarjetas">
-                    <div class="desplazar7">
-                        <picture class="picture270">
-                            <a href=""><img style="" src="./img/clientes/12.png" alt=""></a>
-                        </picture>
-                        <div class="whatIdo"><a href="">DEVELOPMENT</a>
-                            <p>600</p>
-                        </div>
-                        <h4>the services provide for design</h4>
-                    </div>
-                </div>
-                <div class="desplazarB Tarjetas">
-                    <div class="desplazar7">
-                        <picture class="picture270">
-                            <a href=""><img style="" src="./img/clientes/10.png" alt=""></a>
-                        </picture>
-                        <div class="whatIdo"><a href="">APPLICATION</a>
-                            <p>750</p>
-                        </div>
-                        <h4>Mobile app landig design
-                            &amp; app maintain</h4>
-                    </div>
-                </div>
-                <div class="desplazarB Tarjetas">
-                    <div class="desplazar7">
-                        <picture class="picture270">
-                            <a href=""><img style="" src="./img/clientes/11.png" alt=""></a>
-                        </picture>
-                        <div class="whatIdo"><a href="">PHOTOSHOP</a>
-                            <p>630</p>
-                        </div>
-                        <h4>Logo design creativity &amp;
-                            aplication</h4>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <hr>
-        <div class="resume">
-            <div class="textCenter">
-                <h3 class="colorRouse">Más de 6 años de experiencia</h3>
-                <h1>mi resumen</h1>
-            </div>
-
-            <div class="centerFlex desplazarB">
-                <ul class="menu desplazar7">
-                    <li class="desplazar7"><a href="">educación</a></li>
-                    <li class="desplazar7"><a href="">Habilidades profesionales</a></li>
-                    <li class="desplazar7"><a href="">experiencia</a></li>
-                    <li class="desplazar7"><a href="">entrevista</a></li>
-                </ul>
-
-            </div>
-            <div class="fleX">
-                <section>
-                    <h1>Educación</h1>
-                    <div id="educacion">
-
-                        <div style="">
-                            <div class="lineaV"></div>
-                            <div class="desplazarB">
-                                <div class="desplazar7">
-                                    <div class="fleX">
-                                        <div>
-                                            <h4>Ingeniería en Software</h4>
-                                            <p>Universidad Siglo 21 (2021-2025)</p>
-                                        </div>
-                                        <p>4.3/5</p>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, sapiente
-                                        accusantium asperiores hic recusandae a ipsa ut ipsam vero dolores voluptate
-                                        fuga, optio quae repellendus provident nemo assumenda enim eos!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="">
-                            <div class="lineaV"></div>
-                            <div class="desplazarB">
-                                <div class="desplazar7">
-                                    <div class="fleX">
-                                        <div>
-                                            <h4>Testing QA</h4>
-                                            <p>Instituto Icaro (2020)</p>
-                                        </div>
-                                        <p>4.5/5</p>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, sapiente
-                                        accusantium asperiores hic recusandae a ipsa ut ipsam vero dolores voluptate
-                                        fuga, optio quae repellendus provident nemo assumenda enim eos!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="">
-                            <div class="lineaV"></div>
-                            <div class="desplazarB">
-                                <div class="desplazar7">
-                                    <div class="fleX">
-                                        <div>
-                                            <h4>Diplomatura en programación web Full Stack Developer.</h4>
-                                            <p>UTN.BA (2018-2019)</p>
-                                        </div>
-                                        <p>4.8</p>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, sapiente
-                                        accusantium asperiores hic recusandae a ipsa ut ipsam vero dolores voluptate
-                                        fuga, optio quae repellendus provident nemo assumenda enim eos!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section>
-                    <h1>Experiencia laboral</h1>
-                    <div id="jobExp">
-
-                        <div style="">
-                            <div class="lineaV"></div>
-                            <div class="desplazarB">
-                                <div class="desplazar7">
-                                    <div class="fleX">
-
-                                        <h4>Software Developer</h4>
-                                        <p>4.7/5</p>
-                                    </div>
+            <article>
+<div class="lineaV"></div>
+<div class="desplazarB">
+<div class="desplazar7">
+<div class="fleX">
+<div>
+<h4>Software Developer</h4><p></p>
+</div>
+<p>4.7/5</p>
+</div>
+<p>Mercado Libre (2023)
+    Me desempeño como desarrollador en el área de NOH Shipment de MercadoEnvíos.</p>
+</div>
+</div>
+</article><article>
+<div class="lineaV"></div>
+<div class="desplazarB">
+<div class="desplazar7">
+<div class="fleX">
+<div>
+<h4>Desarrolladora.NET</h4><p></p>
+</div>
+<p>4.95/5</p>
+</div>
+<p>ARSTAR IT  (2022-2023)
+    Desarrollar y testear juegos para casinos en 2D utilizando C# y Unity. Trabajar eficazmente con la interfaz de Unity para configurar escenas y aplicar lógica de juego.</p>
+</div>
+</div>
+</article><article>
+<div class="lineaV"></div>
+<div class="desplazarB">
+<div class="desplazar7">
+<div class="fleX">
+<div>
+<h4>Desarrolladora Web.</h4><p></p>
+</div>
+<p>5/5</p>
+</div>
+<p>Elitronic (2020-2022)
+    Desarrollo y mantenimiento de un e-commerce de productos electrónicos.</p>
+</div>
+</div>
+</article></div>
+        </section>
+    </div>
+</div><hr><div id="client" class="client">
 
 
-                                    <p>Mercado Libre (2023)
-                                        Me desempeño como desarrollador en el área de NOH Shipment de MercadoEnvíos.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="">
-                            <div class="lineaV"></div>
-                            <div class="desplazarB">
-                                <div class="desplazar7">
-                                    <div class="fleX">
+   <h3 class="colorRouse">CLIENTES POPULARES</h3>
+   <h1>Clientes Increibles</h1>
 
-                                        <h4>Desarrolladora.NET</h4>
-                                        <p>4.95/5</p>
-                                    </div>
+<section id="client2" class="client2 fleX">
+   <div>
+       <nav style="height: min-content;" class="desplazarB">
+       <ul class="desplazar7">
+       <li><a href="">Javascript</a></li>
+       <li><a href="">Productos de Diseño</a></li>
+       <li><a href="">Wordpress</a></li>
+       <li><a href="">HTML to React</a></li>
+       <li><a href="">React To Laravel</a></li>
+       <li><a href="">Phyton</a></li>
 
-
-                                    <p>ARSTAR IT (2022-2023)
-                                        Desarrollar y testear juegos para casinos en 2D utilizando C# y Unity. Trabajar
-                                        eficazmente con la interfaz de Unity para configurar escenas y aplicar lógica de
-                                        juego.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="">
-                            <div class="lineaV"></div>
-                            <div class="desplazarB">
-                                <div class="desplazar7">
-                                    <div class="fleX">
-
-                                        <h4>Desarrolladora Web.</h4>
-                                        <p>5/5</p>
-                                    </div>
+   </ul>
+       </nav>
+   </div>
+   <div id="clientMuestra" class="clientMuestra">
 
 
-                                    <p>Elitronic (2020-2022)
-                                        Desarrollo y mantenimiento de un e-commerce de productos electrónicos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
+   <article>
+<div class="desplazar7">
 
+<span class="picture270">
+<a href=""><img src="./img/clientes/1.jpg" alt=""></a>
+</span>
 
-        <hr>
-        <div id="client">
-            <div>
-                <h3 class="colorRouse">CLIENTES POPULARES</h3>
-                <h1>Clientes Increibles</h1>
-            </div>
-            <section id="client2" style="display: flex;">
-                <div style="padding-top: 50px; ">
-                    <div style="height: min-content;" class="desplazarB">
-                        <ul class="desplazar7">
-                            <li><a href="">Javascript</a></li>
-                            <li><a href="">Productos de Diseño</a></li>
-                            <li><a href="">Wordpress</a></li>
-                            <li><a href="">HTML to React</a></li>
-                            <li><a href="">React To Laravel</a></li>
-                            <li><a href="">Phyton</a></li>
+<p>the services provide for design</p>
 
-                        </ul>
-                    </div>
-                </div>
-                <div id="clientMuestra">
+</div></article><article>
+<div class="desplazar7">
 
+<span class="picture270">
+<a href=""><img src="./img/clientes/3.jpg" alt=""></a>
+</span>
 
-                    <div class="">
-                        <div class="desplazar7">
+<p>the services provide for design</p>
 
-                            <picture class="picture270">
-                                <a href=""><img src="./img/clientes/1.jpg" alt=""></a>
-                            </picture>
+</div></article><article>
+<div class="desplazar7">
 
-                            <p>the services provide for design</p>
+<span class="picture270">
+<a href=""><img src="./img/clientes/2.jpg" alt=""></a>
+</span>
 
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="desplazar7">
+<p>the services provide for design</p>
 
-                            <picture class="picture270">
-                                <a href=""><img src="./img/clientes/3.jpg" alt=""></a>
-                            </picture>
+</div></article><article>
+<div class="desplazar7">
 
-                            <p>the services provide for design</p>
+<span class="picture270">
+<a href=""><img src="./img/clientes/5.jpg" alt=""></a>
+</span>
 
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="desplazar7">
+<p>the services provide for design</p>
 
-                            <picture class="picture270">
-                                <a href=""><img src="./img/clientes/2.jpg" alt=""></a>
-                            </picture>
+</div></article><article>
+<div class="desplazar7">
 
-                            <p>the services provide for design</p>
+<span class="picture270">
+<a href=""><img src="./img/clientes/4.jpg" alt=""></a>
+</span>
 
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="desplazar7">
+<p>the services provide for design</p>
 
-                            <picture class="picture270">
-                                <a href=""><img src="./img/clientes/5.jpg" alt=""></a>
-                            </picture>
+</div></article></div>
+</section>
 
-                            <p>the services provide for design</p>
+</div><hr><div id="blog" class="textCenter blog">
+   
+    <h3 class="colorRouse ">visita mi blog y guarda tus comentarios</h3>
+    <h1>Mi Blog</h1>
+<section id="gridBlog" class="gridBlog">    
+<article class="desplazarB Tarjetas">
+<div class="desplazar7">
+<span>
+<a href=""><img src="./img/clientes/6.png" alt=""></a>
+</span>
+<div class="whatIdo"><a href="">CANADA</a><p>2 min read</p></div>
+<h4>T-shirt design is the part of design</h4>
+</div>
+</article><article class="desplazarB Tarjetas">
+<div class="desplazar7">
+<span>
+<a href=""><img src="./img/clientes/7.png" alt=""></a>
+</span>
+<div class="whatIdo"><a href="">DEVELOPMENT</a><p>2 hour read</p></div>
+<h4>The services provide for 
+design</h4>
+</div>
+</article><article class="desplazarB Tarjetas">
+<div class="desplazar7">
+<span>
+<a href=""><img src="./img/clientes/8.png" alt=""></a>
+</span>
+<div class="whatIdo"><a href="">APPLICATION</a><p>5 min read</p></div>
+<h4>Mobile app landing
+design &amp; app maintain</h4>
+</div>
+</article></section>
+    </div><hr><div id="Contact" class="Contact"> 
+<div class="textCenter ">
+    <h3 class="colorRouse">contacto</h3>
+    <h1>Contactame</h1>
+</div>
+<section class="fleX ">
+    <div class="desplazarB">
+        <div class="desplazar7" style="height: 518px;">
 
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="desplazar7">
-
-                            <picture class="picture270">
-                                <a href=""><img src="./img/clientes/4.jpg" alt=""></a>
-                            </picture>
-
-                            <p>the services provide for design</p>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <hr>
-        <div class="textCenter" id="blog">
-            <h3 class="colorRouse ">visita mi blog y guarda tus comentarios</h3>
-            <h1>Mi Blog</h1>
-
-            <div id="gridBlog" style="">
-                <div class="desplazarB Tarjetas">
-                    <div class="desplazar7">
-                        <picture>
-                            <a href=""><img src="./img/clientes/6.png" alt=""></a>
-                        </picture>
-                        <div class="whatIdo"><a href="">CANADA</a>
-                            <p>2 min read</p>
-                        </div>
-                        <h4>T-shirt design is the part of design</h4>
-                    </div>
-                </div>
-                <div class="desplazarB Tarjetas">
-                    <div class="desplazar7">
-                        <picture>
-                            <a href=""><img src="./img/clientes/7.png" alt=""></a>
-                        </picture>
-                        <div class="whatIdo"><a href="">DEVELOPMENT</a>
-                            <p>2 hour read</p>
-                        </div>
-                        <h4>The services provide for
-                            design</h4>
-                    </div>
-                </div>
-                <div class="desplazarB Tarjetas">
-                    <div class="desplazar7">
-                        <picture>
-                            <a href=""><img src="./img/clientes/8.png" alt=""></a>
-                        </picture>
-                        <div class="whatIdo"><a href="">APPLICATION</a>
-                            <p>5 min read</p>
-                        </div>
-                        <h4>Mobile app landing
-                            design &amp; app maintain</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div id="Contact">
-            <div class="textCenter ">
-                <h3 class="colorRouse">contacto</h3>
-                <h1>contacta me</h1>
-            </div>
-            <section class="fleX">
-                <div class="desplazarB">
-                    <div class="desplazar7">
-
-                        <picture class="picture270">
-                            <a href=""><img src="./img/clientes/9.png" alt=""></a>
-                        </picture>
-                        <p>Estoy disponible para trabajo independiente. Conéctate conmigo
-                            <br><br>
-                            <br>Teléfono: +543525546682
-                            <br>E-mail: lic.urbaneja@gmail.com
+            <span class="picture270">
+                <a href=""><img src="./img/clientes/9.png" alt=""></a>
+            </span>
+            <p>Estoy disponible para trabajo independiente. Conéctate conmigo
+                <br><br>
+                    <br>Teléfono:+543525546682
+                    <br>E-mail: lic.urbaneja@gmail.com
                         </p>
-                        <div style="display: flex;">
-                            <div>
-                                <h6>FIND WITH ME</h6>
-                                <ul class="menu">
-                                    <li class="desplazar7" style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 30px;height: 30px;display: flex;align-items: center;justify-content: center;
-                                ">
-                                        <a style="padding: 4px 4px; border-radius: 7px !important;text-transform: lowercase;  color: white;-webkit-text-stroke: 2px;-webkit-text-stroke-color: black ;font-family:Verdana, Geneva, Tahoma, sans-serif !important;font-size: 30px; font-weight: 1000;top:10px;"
-                                            href="">f</a>
-                                    </li>
-                                    <li><a href=""><img class="desplazar7"
-                                                style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 30px;height: 30px;"
-                                                src="./img/icon/Instagram.png" alt=""></a></li>
-                                    <li class="desplazar7" style="padding: 4px 4px; border-radius: 7px !important;display: flex;width: 30px;height: 30px;display: flex;align-items: center;
-                                ">
-                                        <a style="padding: 4px 4px; border-radius: 7px !important;text-transform: lowercase;  color: white;-webkit-text-stroke: 2px;-webkit-text-stroke-color: black ;font-size: 20px; font-weight: 900;top:10px;"
-                                            href="">in</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="fleX redes">
+                        <div>
+
+<h6>ENCUENTRAME CON</h6>
+<nav><ul class="menu">
+<li class="desplazar7 iconB">
+<a class="iconF" href="">f</a>
+</li>
+<li class="desplazar7 iconB"><a class="iconF" href="">
+<img src="./img/icon/Instagram.png" alt=""></a></li>
+<li class="desplazar7 iconB">
+<a class="iconF" href="">in</a>
+</li>
+</ul>   
+</nav>
+</div>
                         </div>
                     </div>
                 </div>
-                <div class="desplazarB">
-                    <form class="desplazar7" id="formContact "
-                        style="padding: 20px;width:calc(425px + 5vw);height: 485px;">
-                        <div class="flexBetween" style="">
-                            <div><label for="">TU NOMBRE</label><input style="display: block;" type="text"></div>
-                            <div><label for="">NUMERO TELEFÓNICO</label><input style="display: block;" type="text">
-                            </div>
+                    <div class="desplazarB">
+                    <form *="" action="" class="desplazar7 formContact" method="POST">
+                    <div class="flexBetween">
+                        <div><label for="nombre">TU NOMBRE</label><input name="nombre" type="text"></div>
+                        <div><label for="numeroTel">NUMERO TELEFÓNICO</label><input name="numeroTel" type="text">
                         </div>
-                        <div><label for="">EMAIL</label><input style="display: block;" type="text"></div>
-                        <div><label for="">ASUNTO</label><input style="display: block;" type="text"></div>
-                        <div><label for="">EMAIL</label><textarea style="display: block;"></textarea></div>
-                    </form>
-                </div>
-            </section>
-        </div>
-        <hr>
-    </main>
+                    </div>
+                    <div><label for="correo">EMAIL</label><input name="correo" type="text"></div>
+                    <div><label for="asunto">ASUNTO</label><input name="asunto" type="text"></div>
+                    <div><label for="msjU">SU MENSAJE</label><textarea name="msjU"></textarea></div>
+                    <button id="EnviarSubmit" type="button">Enviar</button>
+                </form>
+                    </div>
+                </section>
+       
+        </div><p class="nota-pie">
+Maquetado por Belén Urbaneja<br>Todos los derechos
+reservados 2024.
 
-    <p class="nota-pie">Maquetado por Belén Urbaneja<br>Todos los derechos
-        reservados 2024.
-    </p>
-
-
-
-
-</body>
+</p></body>
 
 </html>

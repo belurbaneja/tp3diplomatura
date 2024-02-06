@@ -1,68 +1,63 @@
-.banner{
+.banner {
     display: flex;
-  
+
     justify-content: center;
     align-items: center;
-    padding-top: 125px;
+    padding: 140px 0 50px 0;
 }
-.banner ul{
+.banner img{
     padding: 0;
+    width: 30vw; 
+    background-size:cover;
+    background-repeat: no-repeat;
+
 }
-.banner li{
-    padding: 0;
-}
-.banner section{
-    
+
+.banner section {
+   margin-right: 25px;
     width: 46vw;
 }
- .banner picture{
-    background-color: white;
-    border-radius: 15px;
-    width: 30vw;
-    height: min-content;
-}
 
-.banner img{
-    position: relative;
-    left: 7px;
-    top: 7px;
-    
-    width: 30vw;
-    border-radius: 15px;
-    filter: drop-shadow(3px 3px 5px rgba(128, 128, 128, 0.384));
-}
 
-.banner h6,.banner h3, .banner h1{
+
+
+.banner h6,
+.banner h3,
+.banner h1 {
     font-family: 'Montserrat', sans-serif;
 }
-.banner h1{
+
+.banner h1 {
     font-size: calc(20px + 1.25vw);
-    
+
 }
-.banner h6{
+.resaltar{
+    letter-spacing: 0.5vw;
+    font-weight: 700;
+}
+.banner h6 {
     font-size: calc(7px + 0.5vw);
-    text-transform: uppercase; 
-    letter-spacing: 0.3vw; 
-    font-weight:400 ;
-   
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    font-weight: 400;
+
     color: rgb(80, 80, 80);
 }
-.banner .menu{
-    display: flex;
-    width: 275px;
-    justify-content: space-evenly;
-    position: relative;
-   right: 45px;
- 
+
+
+.banner strong {
+    color: var(--RouseEspecial);
 }
+
 @media screen and (max-width:850px) {
-    .banner{
+    .banner {
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .banner div{
+
+    .banner div {
         flex-direction: column;
         justify-content: center;
     }
-    
+
 }

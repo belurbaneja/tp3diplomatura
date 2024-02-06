@@ -1,94 +1,109 @@
-#Contact  h6 {
+.Contact{
+    padding: 40px 0;
+    
+}
+.Contact  h6 {
     font-size: calc(7px + 0.5vw);
     text-transform: uppercase;
     letter-spacing: 0.3vw;
     font-weight: 400;
     color: rgb(80, 80, 80);
 }
-#Contact .desplazarB{
+.Contact .desplazarB{
     margin:0 25px;
+    height: max-content;
 }
-#Contact .desplazar7{
+.Contact .desplazar7{
     width: calc(325px + 4vw);
-    height: 485px;
+    
     padding: 20px;
 }
-#Contact .desplazar7 img{
+
+.Contact span img{
     border-radius: 15px;
-    width: calc(325px + 4vw);
-    height: calc((325px + 4vw) / 16 * 9 );
+    width: calc(325px + 4vw) !important;
+    height: calc((325px + 4vw) / 16 * 9 ) ;
+   
 }
-#Contact ul{
-padding: 0;
+.Contact ul{
+    height: min-content;
 }
-#Contact input{
+.Contact input{
     height: 30px;
     border: 1px solid var(--GreyEspecial);
     border-radius: 5px;
     margin: 15px 0;
     width: calc(400px + 6vw);
 }
-#Contact label{
+.Contact label{
  
     margin: 10px 0;
 }
-#Contact div.flexBetween input{
+.Contact div.flexBetween div,
+.Contact div.flexBetween input{
     width: 218px;
 }
-#Contact textarea{
+.Contact textarea{
     border: 1px solid var(--GreyEspecial);
     border-radius: 5px;
-    margin: 15px 0;
+    margin: 40px 0 15px 0;
     width: calc(400px + 6vw);
-    height: 200px;
+    height: 150px;
+}
+.formContact{
+    padding: 20px;
+    width:calc(425px + 5vw) !important;
+    height: max-content;
 }
 @media screen and (max-width:1020px) {
-    #Contact section.fleX{
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        height: 1200px;
+    .Contact{
+
+       
+        justify-self: center;
+    }
+    .Contact section.fleX{
+        display: grid;
+        justify-items: center;
         width: 90vw;
+       
     }
-    #Contact section.fleX  div.desplazarB{
-        margin: 0 !important;
+    .Contact section.fleX  div.desplazarB{
+        margin: 40px 0;
     }
    
    
-    #Contact .desplazar7{
+    .Contact .desplazar7{
         width: calc(80vw - 15px);
         
     }
-    
+    .Contact span img{
+      
+        width: calc(80vw - 15px);
+        height: calc((80vw - 15px) / 16 * 9 );
+    }
   
-    #Contact input{
-       
+    .Contact input{
+        
         width: calc(85vw - 15px);
     }
-    #Contact label{
-       
+    .Contact label{
+        display: block;
         width: calc(85vw - 15px);
         margin: 10px 0;
     }
-    #Contact div.flexBetween input{
+    .Contact div.flexBetween input{
         width: calc(85vw - 15px);
     }
-    #Contact div.flexBetween{
+    .Contact div.flexBetween{
         display: block;
         justify-items: center;
     }
-    #Contact form{
+    .Contact form{
         width: 90vw !important;
+        height: max-content;
     }
-    #Contact textarea{
+    .Contact textarea{
         width: calc(85vw - 15px);
         height: 150px; 
-    }
-}
-@media screen and (max-width:415px) {
-#Contact .desplazar7 img{
-      
-        width: calc(250px);
-        height: calc((250px / 16 * 9 );
     }
 }

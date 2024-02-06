@@ -1,160 +1,108 @@
+.lineaV::before {
 
-.lineaV::before{
-  
   content: ' ';
   display: flex;
   position: relative;
-  box-sizing: border-box;
   left: -7px;
   background-repeat: no-repeat;
-  background-image: url("../img/icon/circulo-barHFW2.svg") ;
+  background-image: url("../img/icon/circulo-barHFW2.svg");
   background-size: 40px;
   background-position: 0px 35px;
   width: 65px;
   height: 100%;
   z-index: 2;
-  
-}
-#educacion,
-#jobExp {
-  display: grid;
-  grid-template-columns: auto;
-  grid-auto-rows: min-content;
-  align-items: center;
-  margin:  0 40px 0 0;
- 
-}
 
-
-.lineaV{
-  
-  
+}
+.lineaV {
   margin: 0px 16px 0 16px;
   width: 6px;
   background-size: 100px;
   background: rgb(180, 178, 178);
-  height: 105%;
-  
- 
+  height: 100%;
+  padding: 0 0 20px 0 ;
+}
+
+.educacion,
+.jobExp {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: min-content;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 40px;
 }
 
 
-#educacion>div,
-#jobExp>div {
+.educacion>article,
+.jobExp>article {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: max-content;
   align-items: center;
-
-  margin: 0;
-}
-#educacion>div>*+*,
-#jobExp>div>*+* {
- margin: 0px 0px 35px 15px;
-}
-#educacion>:last-child>*+*,
-#jobExp>:last-child>*+* {
- margin: 0px 0px 0px 15px;
-}
-
-
-.resume{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.resume .fleX{
-  padding-top: 40px;
-  justify-content:space-between;
-}
-.centerFlex.desplazarB{
-  height: 75px;
-  width: min-content;
+  column-gap: 10px;
  
 }
-.resume .menu li{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 75px;
- border-radius: 0;
- background: transparent;
- top:0;
- left: 0;
-  }
-  .resume .menu {
-  height: 75px;
-    
-  padding: 0;  
-  }
+
+
+.resume {
+  justify-self: center;
   
-
-.resume .menu li:hover{
-  background: var(--ShadowBoxB);
-  filter: var(--ShadowBox) ;
-  border-radius: 15px;
-
-  top:0;
-  left:0;
- 
+  margin: 40px 0;
 }
-.resume ul li a{
-  height: min-content;
-  border-radius: 0;
-  
-  } 
-.resume ul li:hover a{
+.educacion .fleX,
+.jobExp .fleX
+{
+  justify-content: space-between;
+}
+.resume>.desplazarB,
+.resume>h1,
+.resume>h3{
+  text-align: center;
+  margin: 30px auto; 
+}
+.resume * ul li:hover a {
+  color: var(--RouseEspecial) !important;
+}
 
-    color:var(--RouseEspecial)!important;
-} 
-
-.resume section div.desplazar7{
+.resume section div.desplazar7 {
 
   padding: 0 20px 20px 20px;
   width: 32vw;
 }
-@media screen and (max-width:860px) {
-  .resume section{
-    margin: 0 40px; ;
-  }
-  .resume section h1{
-   padding-left: 15px;
-  }
- .resume :nth-child(3)
- {
-  display: block;
- }
- .resume section div.desplazar7{
 
-  width: 60vw;
-}
- .resume  div ul {
-  display: flex;
-  flex-direction: column;
-  padding: 0;  
-      }
- .resume > :nth-child(2).desplazarB{
+@media screen and (max-width:860px) {
+  .resume section {
+    margin: 0 40px;
+    ;
+  }
+
+  .resume section h1 {
+    padding-left: 15px;
+  }
+
+  .resume section div.desplazar7 {
+
+    width: 60vw;
+  }
+
+  .resume> :nth-child(2).desplazarB {
     list-style: none;
     text-align: center;
     padding: 0 !important;
- }
-  .resume >div.desplazarB,
-  .resume div ul{
-    margin: 0;
-    height: max-content !important;
- }
- .resume ul li{
- width: calc(76vw) !important;
- top:0;
- left: 0;
   }
-     
-.resume ul li:hover{
- 
-  background: var(--ShadowBoxB);
-  filter: var(--ShadowBox) ;
-  border-radius: 15px;
 
-}
+  .resume>nav.desplazarB,
+  .resume nav ul {
+       height: max-content !important;
+  }
 
+  .resume ul a{
+    width: calc(76vw) !important;
+    
+  }
+
+  .resume>.fleX,.resume nav ul {
+    flex-direction: column;
+  }
 }

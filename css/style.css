@@ -1,0 +1,59 @@
+body{
+    grid-template-areas: 
+    'a'
+    'b' 
+    'otros';
+  grid-auto-rows: 120px max-content;
+    row-gap: 50px;
+}
+header{
+     
+}
+body>h2{
+   
+grid-area: b;
+   
+}
+h1 {
+   
+    border: 1px solid violet;
+    height: 150px;
+}
+
+#Enviar {
+    height: 120px;
+    font-size: 40px;
+}
+
+#chatText {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+#chatText>div {
+    display: flex;
+}
+
+#emoji {
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    margin: 20px 0;
+    display: flex;
+}
+p{
+    padding: 15px;
+}
+span{
+    grid-area: otros;
+ display: grid;
+ grid-template-areas: 'a a' 'b c';
+ justify-items: center;
+}
+label{
+    grid-area: a;
+}

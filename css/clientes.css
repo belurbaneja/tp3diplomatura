@@ -1,122 +1,122 @@
-#client{
-    display: flex;
-    flex-direction: column;  
-    position: relative;
-    align-items: center;
+.client {
+  width: 75vw;
+  margin: 40px auto;
 }
 
-#client>div{
-   display: flex;
-   flex-direction: column;  
-   position: relative;
-   align-items: center;
+
+
+.client2 {
+
+  justify-content: space-between;
 }
 
-#client2{
-    width: 75vw;
-    justify-content: space-between;
+
+.clientMuestra img {
+  width: 100%;
+
 }
 
-#client h1,#client h3{
-    width: 75vw;
-}
-#clientMuestra img{
-  width:100%;
-  
-}
-#clientMuestra picture{
+.clientMuestra span {
   height: 75%;
   overflow: hidden;
-  
-}
-#clientMuestra{
-    display: grid;
-    grid-template-columns: 230px 230px 230px;
-   row-gap: 40px;
-    justify-items: center;
-    
+
 }
 
- 
-      #clientMuestra .desplazar7{
-        width: 170px;
-        height: 170px;
-      }
-    #client2  ul li{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 75px;
-     border-radius: 0;
-     background: transparent;
-   
-    }
-    #client2  ul li,#client2 ul.desplazar7,
-    #client2  ul li a,
-    #client2 div .desplazarB
-    {
-     
-      width: calc(22vw + 5px) !important;
-    }
-    #client2 ul.desplazar7{
-      margin: 0 0 ;
-      list-style: none;
-      text-align: center;
-      padding: 0 !important;
-      width: 22vw;
-      }
-      #client2  ul li a{
-        display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 75px;
-      border-radius: 0;
- 
-      }
-    #client2>div{
-      padding: 50px 5px 0 5px;
-    }
-    #client2  ul li:hover{
-      background: var(--RouseEspecial);
-      filter: var(--ShadowBox) ;
-      border-radius: 15px;
-      top:0 !important;
-      left:0 !important;;
-      
-    } 
-    #client2  ul li:hover a{
-      
-        color:var(--WhiteSpecial)!important;
-    } 
-    @media screen and (max-width:1020px) {
-      #clientMuestra{
-       
-        grid-template-columns: 230px 230px;
-       
-      
-    }
-    #client2{
-      width: 85vw;
-      
-  }
-    }
-    @media screen and (max-width:750px) {
-      #clientMuestra{
-       
-        grid-template-columns: 195px ;
-       
-      
-    }
-    #client2{
-      width: 70vw;
-      justify-content: space-evenly;
-  }
- 
-    
-    
-  
-    
-#client a{
-font-size: calc(10px + 0.5vw);
+.clientMuestra {
+  display: grid;
+  grid-template-columns: 230px 230px 230px;
+  row-gap: 40px;
+  justify-items: center;
+
 }
-    }
+
+
+.clientMuestra .desplazar7 {
+  width: 170px;
+  height: 170px;
+}
+
+.client2 ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  border-radius: 0;
+  background: transparent;
+
+}
+
+.client2 ul li,
+.client2 ul.desplazar7,
+.client2 ul li a,
+.client2 div .desplazarB {
+
+  width: calc(22vw + 5px) !important;
+}
+
+.client2 ul.desplazar7 {
+  margin: 0 0;
+  list-style: none;
+  text-align: center;
+  padding: 0 !important;
+  width: 22vw;
+}
+
+.client2 ul li a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  border-radius: 0;
+
+}
+
+.client2 ul li:hover a {
+  
+  background: var(--RouseEspecial) !important;
+  filter: var(--ShadowBox);
+  border-radius: 15px;
+  top: 0 !important;
+  left: 0 !important;
+  color: var(--WhiteSpecial) !important;
+}
+
+.client2>div {
+  padding: 50px 5px 0 5px;
+}
+
+
+@media screen and (max-width:1020px) {
+  .clientMuestra {
+
+    grid-template-columns: 230px 230px;
+
+
+  }
+
+  .client2 {
+    width: 85vw;
+
+  }
+}
+
+@media screen and (max-width:750px) {
+  .clientMuestra {
+
+    grid-template-columns: 195px;
+
+
+  }
+
+  .client2 {
+    width: 70vw;
+    justify-content: space-evenly;
+  }
+
+
+  .client a {
+    font-size: calc(10px + 0.5vw);
+  }
+}
